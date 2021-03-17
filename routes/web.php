@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/', 'CarsController@index');
+Route::get('/car/{id}', 'DetailController@index');
